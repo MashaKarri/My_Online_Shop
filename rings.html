@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lustre & Lore</title>
+    <link rel="stylesheet" href="./styles.css/ringsstyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css/reset.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list left">
+            <li class="nav-item">
+              <a href="./index.html">Main page</a>
+            </li>
+            <li class="nav-item active"><a href="./rings.html">Rings</a></li>
+            <li class="nav-item"><a href="./pendants.html">Pendants</a></li>
+            <li class="nav-item"><a href="#">Bracelets</a></li>
+            <li class="nav-item"><a href="#">Earrings</a></li>
+          </ul>
+          <div class="logo">Lustre & Lore</div>
+          <ul class="nav-list right">
+            <li class="nav-item">
+              <a href="#">
+                <svg class="contact-icon" width="24" height="24">
+                  <use href="./SVG/icons/symbol-defs.svg#search"></use>
+                </svg>
+                Search
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Log in/Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <svg class="contact-icon" width="24" height="24">
+                  <use href="./SVG/icons/symbol-defs.svg#user"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <svg class="contact-icon" width="24" height="24">
+                  <use href="./SVG/icons/symbol-defs.svg#heart"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="main-container">
+          <div class="thumb">
+            <img src="./images/rings/rings_1.jpg" alt="1" />
+            <p class="label">$229</p>
+            <div class="text-container">
+              <p>Elegance</p>
+              <p><strong>Lustre & Lore</strong></p>
+              <button data-modal-open>Order</button>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="./images/rings/rings_2.jpg" alt="2" />
+            <p class="label">$319</p>
+            <div class="text-container">
+              <p>Scarlet Rose</p>
+              <p><strong>Lustre & Lore</strong></p>
+              <button data-modal-open>Order</button>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="./images/rings/rings_3.jpg" alt="3" />
+            <p class="label">$399</p>
+            <div class="text-container">
+              <p>Sky Feather</p>
+              <p><strong>Lustre & Lore</strong></p>
+              <button data-modal-open>Order</button>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="./images/rings/rings_4.jpg" alt="4" />
+            <p class="label">$269</p>
+            <div class="text-container">
+              <p>Forest Onyx</p>
+              <p><strong>Lustre & Lore</strong></p>
+              <button data-modal-open>Order</button>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="./images/rings/rings_5.jpg" alt="5" />
+            <p class="label">$259</p>
+            <div class="text-container">
+              <p>Lunar Enchantment</p>
+              <p><strong>Lustre & Lore</strong></p>
+              <button data-modal-open>Order</button>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="./images/rings/rings_6.jpg" alt="6" />
+            <p class="label">$279</p>
+            <div class="text-container">
+              <p>Golden Blossom</p>
+              <p><strong>Lustre & Lore</strong></p>
+              <button data-modal-open>Order</button>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="./images/rings/rings_7.jpg" alt="7" />
+            <p class="label">$299</p>
+            <div class="text-container">
+              <p>Celestial Grace</p>
+              <p><strong>Lustre & Lore</strong></p>
+              <button data-modal-open>Order</button>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="./images/rings/rings_8.jpg" alt="8" />
+            <p class="label">$269</p>
+            <div class="text-container">
+              <p>Eternal Unity</p>
+              <p><strong>Lustre & Lore</strong></p>
+              <button data-modal-open>Order</button>
+            </div>
+          </div>
+          <div class="thumb">
+            <img src="./images/rings/rings_9.jpg" alt="9" />
+            <p class="label">$359</p>
+            <div class="text-container">
+              <p>Icy Shimmer</p>
+              <p><strong>Lustre & Lore</strong></p>
+              <button data-modal-open>Order</button>
+            </div>
+          </div>
+        </div>
+
+        <section class="modal-backdrop is-hidden" data-modal>
+          <div class="modal-window">
+            <button class="close-btn" data-modal-close>×</button>
+            <h2>Leave your details, we will call you back</h2>
+            <form>
+              <div class="input-group">
+                <label for="name" class="input-label">Name</label>
+                <div class="input-wrapper">
+                  <input type="text" id="name" placeholder="Enter you name" />
+                </div>
+              </div>
+
+              <div class="input-group">
+                <label for="phone" class="input-label">Phone</label>
+                <div class="input-wrapper">
+                  <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="input-group">
+                <label for="email" class="input-label">Email</label>
+                <div class="input-wrapper">
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your e-mail"
+                    required
+                  />
+                </div>
+              </div>
+
+              <label for="comment">Comment</label>
+              <textarea
+                id="comment"
+                placeholder="Enter your text"
+                required
+              ></textarea>
+
+              <div class="checkbox-container">
+                <input type="checkbox" id="agreement" required />
+                <label for="agreement"
+                  >I agree to receive newsletters and accept the
+                  <a href="#">terms of the contract</a></label
+                >
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
